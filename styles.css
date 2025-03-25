@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-blue: hsl(229, 23%, 23%);
+    --dark-gray-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+    --white: #ffffff;
+}
+
+html,
+body {
+    min-height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+body {
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+    background-color: var(--dark-cyan);
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.card {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.card-top {
+    height: 140px;
+    width: 100%;
+    background-image: url("./images/bg-pattern-card.svg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-bottom {
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper {
+    margin-top: -48px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid var(--white);
+}
+
+.name-row {
+    display: flex;
+    gap: 8.5px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--very-dark-blue);
+}
+
+.age {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--dark-gray-blue);
+}
+
+.location {
+    color: var(--dark-gray-blue);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.stats {
+    width: 100%;
+    padding: 24px;
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    border-top: 1px solid #E8E9EC;
+}
+
+.stats-brkd {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.numbers {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.numbers-description {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    color: var(--dark-gray-blue);
+}
