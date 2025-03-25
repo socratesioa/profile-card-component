@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Solution]([https://your-solution-url.com](https://github.com/socratesioa/profile-card-component))
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution]([https://your-solution-url.com](https://github.com/socratesioa/profile-card-component)
+- Live Site URL: [Live Site]([https://your-live-site-url.com](https://socratesioa.github.io/profile-card-component)
 
 ## My process
 
